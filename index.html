@@ -18,22 +18,22 @@
             display: block;
         }
         .nav-link.active {
-            background-color: #A3B5C9;
-            color: #2F3C4C;
+            background-color: #BFA88F;
+            color: #402E32;
             font-weight: 600;
         }
         ::-webkit-scrollbar {
             width: 8px;
         }
         ::-webkit-scrollbar-track {
-            background: #F0F4F8;
+            background: #F8F4F0;
         }
         ::-webkit-scrollbar-thumb {
-            background: #6B8B9B;
+            background: #7E634F;
             border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #4F738C;
+            background: #5A4232;
         }
         .text-strong {
             font-weight: bold;
@@ -48,7 +48,7 @@
             width: 100%;
             max-width: 400px;
             height: 500px;
-            background-color: #DCE6F0;
+            background-color: #EFE8E0;
             border-radius: 1rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             display: flex;
@@ -61,7 +61,7 @@
             transform: translateY(0);
         }
         .chat-header {
-            background-color: #6B8B9B;
+            background-color: #7E634F;
             color: white;
             padding: 1rem;
             border-top-left-radius: 1rem;
@@ -84,16 +84,16 @@
             border-radius: 0.75rem;
         }
         .chat-message.user {
-            background-color: #F0F4F8;
+            background-color: #F8F4F0;
             align-self: flex-end;
         }
         .chat-message.gemini {
-            background-color: #A3B5C9;
+            background-color: #BFA88F;
             align-self: flex-start;
         }
         .chat-input-area {
             padding: 1rem;
-            border-top: 1px solid #A3B5C9;
+            border-top: 1px solid #BFA88F;
             display: flex;
             gap: 0.5rem;
         }
@@ -101,18 +101,18 @@
             flex-grow: 1;
             padding: 0.5rem;
             border-radius: 0.5rem;
-            border: 1px solid #6B8B9B;
-            background-color: #F0F4F8;
+            border: 1px solid #7E634F;
+            background-color: #F8F4F0;
         }
         .chat-send-btn {
-            background-color: #6B8B9B;
+            background-color: #7E634F;
             color: white;
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
             transition: 0.2s ease-in-out;
         }
         .chat-send-btn:hover {
-            background-color: #4F738C;
+            background-color: #5A4232;
         }
         @media (max-width: 768px) {
             .gemini-chat-container {
@@ -126,38 +126,38 @@
         }
     </style>
 </head>
-<body class="bg-[#F0F4F8] text-[#2F3C4C]">
+<body class="bg-[#F8F4F0] text-[#402E32]">
 
     <div class="flex flex-col md:flex-row min-h-screen">
         <!-- Sidebar Navigation -->
-        <aside class="w-full md:w-64 lg:w-72 bg-[#DCE6F0] p-4 md:p-6 shadow-lg md:fixed md:h-full overflow-y-auto">
-            <h1 class="text-xl lg:text-2xl font-bold text-[#2F3C4C] mb-6">Representação Discente do PPGAS/UnB: Guia de Normativas</h1>
+        <aside class="w-full md:w-64 lg:w-72 bg-[#EFE8E0] p-4 md:p-6 shadow-lg md:fixed md:h-full overflow-y-auto">
+            <h1 class="text-xl lg:text-2xl font-bold text-[#402E32] mb-6">Representação Discente do PPGAS/UnB: Guia de Normativas</h1>
             <nav id="sidebar-nav" class="space-y-2">
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="resolucao-cepe">1. Resolução CEPE</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="regulamento-ppgas">2. Regulamento PPGAS</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="orientacao">3. Orientação e Coorientação</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="criterios-bolsas">4. Critérios e Bolsas</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="auxilios">5. Auxílios e Financiamentos</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="fluxo-disciplinas">6. Alunos com Vínculo Empregatício</a>
-                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="duvidas-frequentes">7. Dúvidas Frequentes</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="resolucao-cepe">1. Resolução CEPE</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="regulamento-ppgas">2. Regulamento PPGAS</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="orientacao">3. Orientação e Coorientação</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="criterios-bolsas">4. Critérios e Bolsas</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="auxilios">5. Auxílios e Financiamentos</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="fluxo-disciplinas">6. Alunos com Vínculo Empregatício</a>
+                <a href="#" class="nav-link block py-2.5 px-4 rounded-lg transition duration-200 hover:bg-[#BFA88F]" data-target="duvidas-frequentes">7. Dúvidas Frequentes</a>
                 <div>
                     <h3 class="font-semibold text-lg mt-4 mb-2 px-4">8. Resoluções PPGAS</h3>
-                    <div class="space-y-1 ml-4 border-l-2 border-[#6B8B9B]">
-                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="res-prorrogacao">Prorrogação de Prazo</a>
-                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="res-aproveitamento">Aproveitamento</a>
-                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="res-ensino">Prática de Ensino</a>
-                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#A3B5C9]" data-target="res-defesa">Defesa e Qualificação</a>
+                    <div class="space-y-1 ml-4 border-l-2 border-[#7E634F]">
+                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#BFA88F]" data-target="res-prorrogacao">Prorrogação de Prazo</a>
+                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#BFA88F]" data-target="res-aproveitamento">Aproveitamento</a>
+                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#BFA88F]" data-target="res-ensino">Prática de Ensino</a>
+                        <a href="#" class="nav-link block py-2 pl-4 rounded-r-lg transition duration-200 hover:bg-[#BFA88F]" data-target="res-defesa">Defesa e Qualificação</a>
                     </div>
                 </div>
             </nav>
-            <button id="open-chat-btn" class="mt-4 w-full bg-[#6B8B9B] text-white py-3 rounded-lg shadow-md hover:bg-[#4F738C] transition-colors">Assistente Gemini ✨</button>
+            <button id="open-chat-btn" class="mt-4 w-full bg-[#7E634F] text-white py-3 rounded-lg shadow-md hover:bg-[#5A4232] transition-colors">Assistente Gemini ✨</button>
         </aside>
 
         <!-- Main Content -->
         <main class="flex-1 md:ml-64 lg:ml-72 p-6 md:p-10">
             <header class="mb-8">
-                <h2 id="main-title" class="text-3xl font-bold text-[#2F3C4C]">Representação Discente do PPGAS/UnB</h2>
-                <p id="main-subtitle" class="text-lg text-[#5A6E83] mt-1">Guia de normativas relativas ao funcionamento do Programa de Pós-Graduação em Antropologia Social, do Departamento de Antropologia, da Universidade de Brasília. Elaborado e mantido pela Representação Discente do PPGAS (Israel Araújo, Luiza L. de Alcântara, Maria Paula C. Rocha e Salomão A. Pereira).</p>
+                <h2 id="main-title" class="text-3xl font-bold text-[#402E32]">Representação Discente do PPGAS/UnB</h2>
+                <p id="main-subtitle" class="text-lg text-[#6F5B5E] mt-1">Guia de normativas relativas ao funcionamento do Programa de Pós-Graduação em Antropologia Social, do Departamento de Antropologia, da Universidade de Brasília. Elaborado e mantido pela Representação Discente do PPGAS (Israel Araújo, Luiza L. de Alcântara, Maria Paula C. Rocha e Salomão A. Pereira).</p>
             </header>
 
             <div id="content-area">
@@ -165,11 +165,11 @@
                 <section id="resolucao-cepe" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução do Conselho de Ensino, Pesquisa e Extensão Nº 0080/2021</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução do Conselho de Ensino, Pesquisa e Extensão Nº 0080/2021</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução, aprovada em <span class="text-strong">29 de julho de 2021</span>, é a norma-mestra que regulamenta todos os Programas de Pós-Graduação <span class="text-em">stricto sensu</span> da Universidade de Brasília. Ela estabelece as bases para a organização, funcionamento, admissão e diplomação dos cursos de Mestrado e Doutorado da UnB. </p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Principais pontos:</h4>
                             <ul class="list-disc list-inside space-y-1 text-base">
                                 <li><span class="text-strong">Estrutura dos Cursos:</span> Os cursos de pós-graduação são organizados em Programas de Pós-Graduação (PPGs), que podem abranger uma ou mais áreas de concentração, com linhas de pesquisa que reúnem docentes e discentes.</li>
@@ -187,11 +187,11 @@
                 <section id="regulamento-ppgas" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Regulamento do Programa de Pós-Graduação em Antropologia Social</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Regulamento do Programa de Pós-Graduação em Antropologia Social</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Aprovado em <span class="text-strong">15 de outubro de 2018</span>, este é o principal documento que define a estrutura e os objetivos do PPGAS, composto pelos cursos de mestrado e doutorado. </p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Detalhes importantes:</h4>
                             <ul class="list-disc list-inside space-y-1 text-base">
                                 <li><span class="text-strong">Mestrado:</span> O curso visa à formação teórica e ao desenvolvimento de capacidades de pesquisa em Antropologia Social. O mestrado deve ser concluído em um prazo de 12 a 24 meses. A carga horária total é de 30 créditos em disciplinas.</li>
@@ -208,19 +208,19 @@
                 <section id="orientacao" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Definição de Orientação e Coorientação</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Definição de Orientação e Coorientação</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">A orientação acadêmica é um dos pilares do Programa de Pós-Graduação em Antropologia Social. O Regulamento do PPGAS e a Resolução do CEPE Nº 0080/2021 estabelecem as regras para a escolha e o papel de orientadores e coorientadores.</p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Orientação</h4>
                             <p class="text-base leading-relaxed">Cada discente regular do PPGAS deverá ter uma(um) <span class="text-strong">Docente Orientadora(or)</span> credenciada(o) pela CPP. Para o mestrado, a definição deve ocorrer até o <span class="text-strong">final do primeiro período letivo</span>. Para o doutorado, até o <span class="text-strong">final do segundo período letivo</span>.</p>
                             <h5 class="font-medium text-base mt-2">Procedimento:</h5>
-                            <p class="text-base leading-relaxed">O discente preenche o formulário-modelo (<a href="https://www.dan.unb.br/images/dan/3_1__Pos-Graduacao_em_Antropologia_Social/definicao_orientacao_novo.pdf" class="text-[#4F738C] hover:underline" target="_blank">link para o formulário</a>), assina e encaminha para a <span class="text-strong">secretaria</span> (e-mail: <span class="text-strong">ppgas.antropologia.unb@gmail.com</span>). O documento deve ser encaminhado com cópia para o orientador, que também assina e devolve para a secretaria.</p>
+                            <p class="text-base leading-relaxed">O discente preenche o formulário-modelo (<a href="https://www.dan.unb.br/images/dan/3_1__Pos-Graduacao_em_Antropologia_Social/definicao_orientacao_novo.pdf" class="text-[#5A4232] hover:underline" target="_blank">link para o formulário</a>), assina e encaminha para a <span class="text-strong">secretaria</span> (e-mail: <span class="text-strong">ppgas.antropologia.unb@gmail.com</span>). O documento deve ser encaminhado com cópia para o orientador, que também assina e devolve para a secretaria.</p>
                             <h5 class="font-medium text-base mt-2">Mudança de Orientação:</h5>
-                            <p class="text-base leading-relaxed">O discente pode propor a mudança de orientador à Comissão de Pós-Graduação, após acordo com os professores envolvidos. O formulário para essa solicitação está disponível neste <a href="https://www.dan.unb.br/images/dan/3_1__Pos-Graduacao_em_Antropologia_Social/formulario_mudanca_orientador.pdf" class="text-[#4F738C] hover:underline" target="_blank">link</a>.
+                            <p class="text-base leading-relaxed">O discente pode propor a mudança de orientador à Comissão de Pós-Graduação, após acordo com os professores envolvidos. O formulário para essa solicitação está disponível neste <a href="https://www.dan.unb.br/images/dan/3_1__Pos-Graduacao_em_Antropologia_Social/formulario_mudanca_orientador.pdf" class="text-[#5A4232] hover:underline" target="_blank">link</a>.
                         </div>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Coorientação</h4>
                             <p class="text-base leading-relaxed">O discente pode ter, além do(a) orientador(a) titular, um(a) <span class="text-strong">coorientador(a)</span>, que deve ser credenciado(a) pela CPP. A coorientação ocorre quando um(a) docente <span class="text-strong">compartilha efetivamente</span> com o(a) orientador(a) a concepção e execução do projeto de pesquisa, além de fornecer orientação complementar.</p>
                             <h5 class="font-medium text-base mt-2">Procedimento para cadastro de Coorientação:</h5>
@@ -229,7 +229,7 @@
                                 <li>A carta deve ser acompanhada do currículo lattes atualizado e de documentos pessoais (RG/CPF/passaporte - se for estrangeiro). O e-mail de contato do coorientador deve ser informado para que a Secretaria (e-mail: <span class="text-strong">ppgas.antropologia.unb@gmail.com</span>) possa solicitar a documentação necessária para o cadastro junto à SAA.</li>
                                 <li>Após o envio, é aberto um processo no SEI, que é pautado para deliberação da Comissão do PPGAS.</li>
                                 <li>Uma vez aprovado, o processo é enviado para a Secretaria Acadêmica para conferência, cadastro e publicação da Coorientação no Boletim de Atos Oficiais. A partir da data da publicação, o referido professor/pesquisador é oficialmente Coorientador.</li>
-                                <li>Um <span class="text-strong">formulário-modelo</span> para a definição de coorientação está disponível neste <a href="https://www.dan.unb.br/media/attachments/2025/08/20/procedimentos---coorientacao1.pdf" class="text-[#4F738C] hover:underline" target="_blank">link</a>.</li>
+                                <li>Um <span class="text-strong">formulário-modelo</span> para a definição de coorientação está disponível neste <a href="https://www.dan.unb.br/media/attachments/2025/08/20/procedimentos---coorientacao1.pdf" class="text-[#5A4232] hover:underline" target="_blank">link</a>.</li>
                                 <li>É importante lembrar que o Coorientador pode participar da banca de defesa, mas não figura como membro da banca, não tem direito a voto e nem assina a ata de defesa.</li>
                             </ul>
                         </div>
@@ -240,11 +240,11 @@
                 <section id="criterios-bolsas" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Critérios para Concessão e Manutenção de Bolsas no PPGAS (2003)</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Critérios para Concessão e Manutenção de Bolsas no PPGAS (2003)</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Este documento, aprovado em <span class="text-strong">17 de fevereiro de 2003</span>, detalha as regras para bolsas de estudo no PPGAS. </p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Principais regras:</h4>
                             <ul class="list-disc list-inside space-y-1 text-base">
                                 <li><span class="text-strong">Duração:</span> O período máximo de bolsa é de <span class="text-strong">2 anos</span> para o mestrado e <span class="text-strong">4 anos</span> para o doutorado.</li>
@@ -256,11 +256,11 @@
                     </div>
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 001/2024 - Ordem de Prioridades na Concessão de Bolsas de Estudo</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 001/2024 - Ordem de Prioridades na Concessão de Bolsas de Estudo</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Aprovada em <span class="text-strong">08 de abril de 2024</span>, esta resolução do PPGAS estabelece a ordem de prioridades e obrigações para a concessão e renovação de bolsas de estudo, incluindo candidatos com vínculo empregatício remunerado, em conformidade com a PORTARIA conjunta CAPES-CNPq Nº 187/2023. </p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Art. 1º: Prioriades na Distribuição de Bolsas</h4>
                             <ol class="list-decimal list-inside space-y-2 text-base">
                                 <li>As bolsas disponíveis serão concedidas prioritariamente a todos os aprovados <span class="text-strong">autodeclarados indígenas, quilombolas e autodeclarados e heteroidentificados como negros/as</span> e a <span class="text-strong">pessoas com deficiência</span>, nesta ordem.</li>
@@ -288,22 +288,22 @@
                 <section id="auxilios" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Auxílios e Financiamentos</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Auxílios e Financiamentos</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta seção reúne as principais normativas para solicitação de apoio financeiro para pesquisa e eventos.</p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Auxílio para Eventos (Resolução Nº 005/2013)</h4>
                             <p class="text-base leading-relaxed">Esta resolução regulamenta as solicitações de financiamento para participação em eventos científicos.</p>
                             <ul class="list-disc list-inside space-y-1 text-base mt-2">
                                 <li>Não podem solicitar recursos: alunos em prorrogação de prazo de defesa, alunos de Doutorado com bolsa CNPq que se beneficiam de taxa de bancada, ou alunos com pendências junto ao PPGAS.</li>
                                 <li>O PPGAS não financia alunos de Mestrado para eventos no exterior.</li>
                                 <li>As solicitações devem ser encaminhadas com <span class="text-strong">antecedência mínima de 30 dias</span> do início do evento.</li>
-                                <li>É necessário apresentar: formulário de solicitação (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#4F738C] hover:underline" target="_blank">modelos disponíveis aqui</a>), carta ou e-mail de aceite do trabalho no evento e o artigo completo.</li>
+                                <li>É necessário apresentar: formulário de solicitação (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#5A4232] hover:underline" target="_blank">modelos disponíveis aqui</a>), carta ou e-mail de aceite do trabalho no evento e o artigo completo.</li>
                                 <li>Em caso de aprovação, o aluno deve entregar o Formulário de Prestação de Contas em até 30 dias após o evento, junto com o certificado de participação, comprovante de embarque e comprovante de submissão do artigo a um periódico.</li>
                             </ul>
                         </div>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">Mini-auxílio para Pesquisa de Campo (Resolução Nº 003/2013)</h4>
                             <p class="text-base leading-relaxed">Esta resolução normatiza a elaboração dos projetos de solicitação de Mini-auxílios para alunos de Mestrado e Doutorado para pesquisa de campo.</p>
                             <ul class="list-disc list-inside space-y-1 text-base mt-2">
@@ -320,11 +320,11 @@
                 <section id="fluxo-disciplinas" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Norma Complementar para Alunos com Vínculo Empregatício</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Norma Complementar para Alunos com Vínculo Empregatício</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta norma de <span class="text-strong">16 de julho de 2003</span> complementa o Artigo 23 do Regulamento do PPGAS, estabelecendo regras para alunos com vínculo empregatício que já cursaram disciplinas como alunos especiais. </p>
-                        <div class="mt-4 p-4 bg-[#F0F4F8]/60 rounded-lg">
+                        <div class="mt-4 p-4 bg-[#F8F4F0]/60 rounded-lg">
                             <h4 class="font-semibold text-lg mb-2">O que ela permite:</h4>
                             <ul class="list-disc list-inside space-y-1 text-base">
                                 <li>O aluno aprovado na Seleção para o Mestrado do PPGAS, não bolsista, com algum vínculo empregatício e que já tiver cursado disciplinas como aluno especial neste Programa, poderá cursar <span class="text-strong">duas disciplinas por semestre</span>, devendo concluir os créditos em disciplinas nos <span class="text-strong">três primeiros semestres</span>.</li>
@@ -338,8 +338,8 @@
                 <section id="duvidas-frequentes" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Dúvidas Frequentes</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Dúvidas Frequentes</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Aqui você encontra respostas para as dúvidas mais comuns sobre os procedimentos do programa.
                         <div class="space-y-6">
@@ -357,7 +357,7 @@
                             </div>
                             <div>
                                 <h4 class="font-semibold text-lg mb-2">4. Como solicitar aproveitamento de créditos do mestrado no doutorado?</h4>
-                                <p class="text-base leading-relaxed">O discente deve encaminhar o requerimento para a <span class="text-strong">secretaria</span> (e-mail: <span class="text-strong">ppgas.antropologia.unb@gmail.com</span>) via formulário específico (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#4F738C] hover:underline" target="_blank">modelos disponíveis aqui</a>), indicando a equivalência entre a disciplina cursada e a disciplina a ser aproveitada. A secretaria encaminha o requerimento para a <span class="text-strong">Comissão de Pós-Graduação</span>, que irá analisar e decidir sobre o pedido. Alunos que ingressam no Doutorado com título de mestre podem ter até <span class="text-strong">30 créditos</span> aproveitados de disciplinas cursadas no mestrado, se o pedido for aprovado. </p>
+                                <p class="text-base leading-relaxed">O discente deve encaminhar o requerimento para a <span class="text-strong">secretaria</span> (e-mail: <span class="text-strong">ppgas.antropologia.unb@gmail.com</span>) via formulário específico (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#5A4232] hover:underline" target="_blank">modelos disponíveis aqui</a>), indicando a equivalência entre a disciplina cursada e a disciplina a ser aproveitada. A secretaria encaminha o requerimento para a <span class="text-strong">Comissão de Pós-Graduação</span>, que irá analisar e decidir sobre o pedido. Alunos que ingressam no Doutorado com título de mestre podem ter até <span class="text-strong">30 créditos</span> aproveitados de disciplinas cursadas no mestrado, se o pedido for aprovado. </p>
                                 <h5 class="font-medium text-base mt-2">Documentos necessários:</h5>
                                 <ul class="list-disc list-inside ml-6 text-base">
                                     <li>Ementa e/ou programa da disciplina de origem.</li>
@@ -389,8 +389,8 @@
                 <section id="res-prorrogacao" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 001/2013: Prorrogação de Prazo</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 001/2013: Prorrogação de Prazo</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução normatiza a elaboração dos pedidos de prorrogação de prazo para defesa de dissertação/tese pelos alunos do Mestrado e Doutorado. </p>
                         <ul class="list-disc list-inside space-y-1 text-base">
@@ -405,12 +405,12 @@
                 <section id="res-aproveitamento" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 002/2017: Aproveitamento de Disciplinas</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 002/2017: Aproveitamento de Disciplinas</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução regulamenta o processo de aproveitamento de créditos de disciplinas de pós-graduação <em>stricto sensu</em> cursadas em instituições brasileiras e/ou estrangeiras. </p>
                         <ul class="list-disc list-inside space-y-1 text-base">
-                            <li>O requerimento de aproveitamento de créditos deve ser feito via formulário específico fornecido pela Secretaria do PPGAS (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#4F738C] hover:underline" target="_blank">modelos disponíveis aqui</a>).</li>
+                            <li>O requerimento de aproveitamento de créditos deve ser feito via formulário específico fornecido pela Secretaria do PPGAS (<a href="https://www.dan.unb.br/pt/pos-graduacao/nossa-pos-em-detalhesn/formularios-e-documentos" class="text-[#5A4232] hover:underline" target="_blank">modelos disponíveis aqui</a>).</li>
                             <li>O requerente deve indicar a equivalência entre a disciplina cursada e uma disciplina a ser aproveitada no PPGAS, conforme a lista disponível nos anexos do Regulamento.</li>
                             <li>Os documentos necessários são: a ementa ou programa da disciplina de origem, histórico escolar e, se necessário, uma declaração do coordenador do PPG.</li>
                         </ul>
@@ -421,8 +421,8 @@
                 <section id="res-ensino" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 01/2017: Prática de Ensino</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 01/2017: Prática de Ensino</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução torna a disciplina de <span class="text-strong">Estágio Docente em Antropologia I</span> obrigatória para o mestrado, e as disciplinas <span class="text-strong">Prática de Ensino</span> e <span class="text-strong">Estágio Docente em Antropologia II</span> obrigatórias para o doutorado. </p>
                         <ul class="list-disc list-inside space-y-1 text-base">
@@ -436,15 +436,15 @@
                 <section id="res-defesa" class="content-section space-y-6">
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 001/2006: Exame de Qualificação para Reingressos</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 001/2006: Exame de Qualificação para Reingressos</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução permite que alunos reingressos do Doutorado defendam o Exame de Qualificação com base em dois ou mais capítulos de sua tese, desde que esses capítulos correspondam ao mesmo Projeto de Pesquisa defendido anteriormente com sucesso. </p>
                     </div>
                     <div class="bg-white/50 p-6 rounded-xl shadow-md border border-gray-200/50">
                         <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-2xl font-bold text-[#6B8B9B]">Resolução Nº 004/2013: Marcação de Bancas</h3>
-                            <button class="summarize-btn bg-[#6B8B9B] text-white py-1 px-3 rounded-lg hover:bg-[#4F738C] transition-colors">Resumir ✨</button>
+                            <h3 class="text-2xl font-bold text-[#7E634F]">Resolução Nº 004/2013: Marcação de Bancas</h3>
+                            <button class="summarize-btn bg-[#7E634F] text-white py-1 px-3 rounded-lg hover:bg-[#5A4232] transition-colors">Resumir ✨</button>
                         </div>
                         <p class="text-base leading-relaxed">Esta resolução regulamenta a marcação de bancas examinadoras de defesa de dissertação, tese e exame de qualificação. </p>
                         <ul class="list-disc list-inside space-y-1 text-base">
