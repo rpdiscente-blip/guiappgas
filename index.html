@@ -147,7 +147,8 @@
 <body class="bg-[#F3EBE0] text-[#402E32] leading-relaxed">
 
     <div class="flex flex-col md:flex-row min-h-screen">
-                <aside class="w-full md:w-64 lg:w-72 bg-[#E9DDCF] p-6 md:p-8 shadow-lg md:fixed md:h-full overflow-y-auto">
+        <!-- Sidebar Navigation -->
+        <aside class="w-full md:w-64 lg:w-72 bg-[#E9DDCF] p-6 md:p-8 shadow-lg md:fixed md:h-full overflow-y-auto">
             <h1 class="text-xl lg:text-2xl font-bold text-[#402E32] mb-8">Representação Discente do PPGAS/UnB: Guia de Normativas</h1>
             <nav id="sidebar-nav" class="space-y-3">
                 <a href="#" class="nav-link block py-3 px-5 rounded-lg transition duration-200 hover:bg-[#D6C2A9]" data-target="resolucao-cepe">1. Resolução CEPE</a>
@@ -170,14 +171,16 @@
             <button id="open-chat-btn" class="mt-8 w-full py-3 rounded-lg shadow-md">Assistente Gemini ✨</button>
         </aside>
 
-                <main class="flex-1 md:ml-64 lg:ml-72 p-6 md:p-10">
+        <!-- Main Content -->
+        <main class="flex-1 md:ml-64 lg:ml-72 p-6 md:p-10">
             <header class="mb-8">
                 <h2 id="main-title" class="text-3xl font-bold text-[#402E32]">Representação Discente do PPGAS/UnB</h2>
                 <p id="main-subtitle" class="text-lg text-[#6F5B5E] mt-2">Guia de normativas relativas ao funcionamento do Programa de Pós-Graduação em Antropologia Social, do Departamento de Antropologia, da Universidade de Brasília. Elaborado e mantido pela Representação Discente do PPGAS (Israel Araújo, Luiza L. de Alcântara, Maria Paula C. Rocha e Salomão A. Pereira).</p>
             </header>
 
             <div id="content-area">
-                                <section id="resolucao-cepe" class="content-section space-y-6">
+                <!-- 1. Resolução CEPE -->
+                <section id="resolucao-cepe" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Resolução do Conselho de Ensino, Pesquisa e Extensão Nº 0080/2021</h3>
@@ -198,7 +201,8 @@
                     </div>
                 </section>
 
-                                <section id="regulamento-ppgas" class="content-section space-y-6">
+                <!-- 2. Regulamento PPGAS -->
+                <section id="regulamento-ppgas" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Regulamento do Programa de Pós-Graduação em Antropologia Social</h3>
@@ -218,7 +222,8 @@
                     </div>
                 </section>
 
-                                <section id="orientacao" class="content-section space-y-6">
+                <!-- Nova seção: Definição de Orientação e Coorientação -->
+                <section id="orientacao" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Definição de Orientação e Coorientação</h3>
@@ -249,7 +254,8 @@
                     </div>
                 </section>
                 
-                                <section id="criterios-bolsas" class="content-section space-y-6">
+                <!-- 4. Critérios e Bolsas -->
+                <section id="criterios-bolsas" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Critérios para Concessão e Manutenção de Bolsas no PPGAS (2003)</h3>
@@ -296,7 +302,8 @@
                     </div>
                 </section>
 
-                                <section id="auxilios" class="content-section space-y-6">
+                <!-- Nova seção: Auxílios e Financiamentos -->
+                <section id="auxilios" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                              <h3 class="text-2xl font-bold text-[#8B5E3C]">Auxílios e Financiamentos</h3>
@@ -324,10 +331,12 @@
                                 <li>A não realização do trabalho de campo implica na devolução total do recurso em 5 dias.</li>
                             </ul>
                         </div>
+                        <!-- Adicionado um novo card para manter a consistência do design -->
                     </div>
                 </section>
 
-                                <section id="fluxo-disciplinas" class="content-section space-y-6">
+                <!-- 6. Fluxo de Disciplinas -->
+                <section id="fluxo-disciplinas" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Norma Complementar para Alunos com Vínculo Empregatício</h3>
@@ -344,7 +353,8 @@
                     </div>
                 </section>
                 
-                                <section id="duvidas-frequentes" class="content-section space-y-6">
+                <!-- 7. Dúvidas Frequentes -->
+                <section id="duvidas-frequentes" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Dúvidas Frequentes</h3>
@@ -352,6 +362,7 @@
                         </div>
                         <p class="text-base leading-relaxed">Aqui você encontra respostas para as dúvidas mais comuns sobre os procedimentos do programa.
                         <div class="space-y-6">
+                          <div class="space-y-6">
                             <div>
                                 <h4 class="font-semibold text-lg mb-2">1. Como solicitar auxílio para pesquisa de campo?</h4>
                                 <p class="text-base leading-relaxed">A solicitação de auxílio de pesquisa é feita com base na Resolução Nº 003/2013. Para saber mais sobre os procedimentos, consulte a seção <strong>Auxílios e Financiamentos</strong> no menu ao lado.</p>
@@ -394,7 +405,8 @@
                     </div>
                 </section>
 
-                                <section id="res-prorrogacao" class="content-section space-y-6">
+                <!-- 8. Resoluções PPGAS -->
+                <section id="res-prorrogacao" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Resolução Nº 001/2013: Prorrogação de Prazo</h3>
@@ -409,7 +421,8 @@
                     </div>
                 </section>
 
-                                <section id="res-aproveitamento" class="content-section space-y-6">
+                <!-- 8. Resoluções PPGAS (continued) -->
+                <section id="res-aproveitamento" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Resolução Nº 002/2017: Aproveitamento de Disciplinas</h3>
@@ -424,7 +437,8 @@
                     </div>
                 </section>
 
-                                <section id="res-ensino" class="content-section space-y-6">
+                <!-- 8. Resoluções PPGAS (continued) -->
+                <section id="res-ensino" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Resolução Nº 01/2017: Prática de Ensino</h3>
@@ -435,10 +449,11 @@
                             <li><span class="text-strong">Mestrado:</span> O Estágio Docente I tem 2 créditos e familiariza o aluno com a prática de ensino, atuando como monitor de uma disciplina de graduação.</li>
                             <li><span class="text-strong">Doutorado:</span> A Prática de Ensino (4 créditos) propicia uma experiência completa de docência, onde o aluno leciona a disciplina de Introdução à Antropologia sob supervisão. O Estágio Docente II (2 créditos) permite ao aluno elaborar um programa de curso de pós-graduação completo, em diálogo com seu orientador.</li>
                         </ul>
-                    </div>
+                      </div>
                 </section>
 
-                                 <section id="res-defesa" class="content-section space-y-6">
+                 <!-- 8. Resoluções PPGAS (continued) -->
+                <section id="res-defesa" class="content-section space-y-6">
                     <div class="card-container">
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="text-2xl font-bold text-[#8B5E3C]">Resolução Nº 001/2006: Exame de Qualificação para Reingressos</h3>
@@ -462,7 +477,8 @@
         </main>
     </div>
 
-        <div id="gemini-chat-container" class="gemini-chat-container">
+    <!-- Gemini Chatbot UI -->
+    <div id="gemini-chat-container" class="gemini-chat-container">
         <div class="chat-header">
             <h4 class="font-semibold">Assistente Gemini ✨</h4>
             <button id="close-chat-btn">✖</button>
